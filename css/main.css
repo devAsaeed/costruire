@@ -44,7 +44,8 @@ a:hover , .active {
     background-color:var(--main-bg-color)
 }
 body {
-    font-family: 'Merriweather Sans', sans-serif
+    font-family: 'Merriweather Sans', sans-serif;
+    overflow-x:hidden
 }
 
 /* start address */
@@ -231,7 +232,7 @@ header .right i {
 }
 /* start about */
 .about .about-item {
-    padding: 10px
+    padding-left: 60px
 }
 .about .about-item h3 {
     font-size: 25px;
@@ -291,7 +292,7 @@ header .right i {
 .hover-img a i{
     color: var(--p-color);
     font-size: 45px;
-    margin-top: 130px;
+    margin-top: 85px;
 }
 .load-more {
     padding: 20px;
@@ -589,6 +590,9 @@ header .right i {
     }
     .services .service {
         margin: 30px auto
+    }
+    .services .item-c{
+        margin-top: 125px;
     }
     .about .about-item {
         text-align: center
